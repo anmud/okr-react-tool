@@ -23,11 +23,19 @@ th {
 
 th,
 td {
-  padding: 10px;
+  padding: 8px;
   border: solid 1px;
   text-align: center;
+  position: relative;
 }
 
 .w {
   width: 350px;
 }
+
+table td input {
+  width: 100%;   
+  border: 1px solid grey;
+  padding: 0px;
+  margin: 0px;
+ }

@@ -12,23 +12,26 @@ const OkrTableProvider = (props) => {
         keyResults: [
             {
                 objectiveId: 1,
-                resultId: 1,
+                id: 1,
                 name: 'Finish 1 udemy course',
-                rating: 0.33,
+                rating: '',
+                calendarWeek: '20',
                 progress: 0.54
             },
             {
                 objectiveId: 1,
-                resultId: 2,
+                id: 2,
                 name: 'Go through 3 exam iterations',
-                rating: 0.15,
+                rating: '',
+                calendarWeek: '20',
                 progress: 0.54
             },
             {
                 objectiveId: 1,
-                resultId: 3,
+                id: 3,
                 name: 'Schedule and attend the exam',
-                rating: 0.00,
+                rating: '',
+                calendarWeek: '20',
                 progress: 0.54
             }
         ]},
@@ -38,23 +41,26 @@ const OkrTableProvider = (props) => {
             keyResults: [
                 {
                     objectiveId: 2,
-                    resultId: 1,
+                    id: 1,
                     name: 'Create 3 different architectures with different components',
-                    rating: 0.33,
+                    rating: '',
+                    calendarWeek: '20',
                     progress: 0.54
                 },
                 {
                     objectiveId: 2,
-                    resultId: 2,
+                    id: 2,
                     name: 'Make 1 cost analysis with 3 different data plans',
-                    rating: 0.1,
+                    rating: '',
+                    calendarWeek: '20',
                     progress: 0.54
                 },
                 {
                     objectiveId: 2,
-                    resultId: 3,
+                    id: 3,
                     name: 'Make 1 final decision for the cheapest architecture and draw it',
-                    rating: 0.4,
+                    rating: '',
+                    calendarWeek: '20',
                     progress: 0.54
                 }
             ]}
