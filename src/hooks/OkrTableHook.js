@@ -22,7 +22,9 @@ const useOkrTable = () => {
 
     return {
         objectives,
+        setObjectives,
         setRating,
+
         
     }
 }

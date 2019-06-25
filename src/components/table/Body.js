@@ -21,7 +21,7 @@ const Body = () => {
            <tbody>
           
             <tr key={objective.id}>
-           <td className="w">{objective.name}</td>
+           <td className="w">{objective.name} <button>Add result</button></td>
            <td>{objective.progress}</td>
            <td></td>
            <td></td>

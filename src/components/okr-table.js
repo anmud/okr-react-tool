@@ -16,6 +16,7 @@ const OkrTable = () => {
            <Body/>
          </table>
 
+
          <pre>{JSON.stringify(objectives, null, 4)}</pre> 
        </Fragment>
     )
